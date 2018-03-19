@@ -1,0 +1,264 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Baiza - Contact us</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="http://s3.sitepoint.com/examples/mdb-livepreview/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="http://s3.sitepoint.com/examples/mdb-livepreview/css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+    
+    <style type="text/css">
+    
+    .a {padding:100px; top: 100px;}
+ .imgA1 { position:absolute; top: 130px; left: 0px; z-index: 1; } 
+.imgB1 { position:absolute; top: 160px; left: 320px; z-index: 3; } 
+    .address { position:absolute; top: 212px; left: 512px; z-index: 3; font-size: 35px;} 
+        .location-marker{ position:absolute; top: 200px; left: 384px; z-index: 3; font-size: 170px; }    
+    
+    </style>
+</head>
+
+<body>
+
+  <!-- Start your project here-->
+
+
+<!--Main Navigation-->
+<header>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark  cyan lighten-3 scrolling-navbar">
+  <a class="navbar-brand" href="#"><img src="images/BaizaLogoFinal.png" height="100"><img src="Asset%201.png" height="25" width="75"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="Index.html">Home </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="products.html">Products</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="aboutus.html">Contact us<span class="sr-only">(current)</span></a>
+    </li>
+     
+    </ul>
+      
+      
+    <ul class="navbar-nav nav-flex-icons">
+      <li class="nav-item">
+      <a class="nav-link"><i class="fa fa-facebook"></i></a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link"><i class="fa fa-twitter"></i></a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link"><i class="fa fa-instagram"></i></a>
+      </li>
+    </ul>
+  </div>
+  </nav>
+</header>
+    
+    
+<body>
+  
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+        
+  
+    
+    <div class="a">
+       <img class="imgA1" src="map.jpg"  alt="First slide">
+     <img class="imgB1" src="bg-transparent.png" height="250" width="700">
+          
+                    <p><i class="fa fa-map-marker red-text fa-2x location-marker"></i><span class="blue-text address">  Survey No.555/7<br>At Post Mhalunge-Ingale<br> Tal-Khed, Dist-Pune-410 501</span> </p>
+  </div>
+    
+
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div class="container-fluid">
+  
+<div class="container">
+           
+                            
+<section class="section">
+
+    <!--Section heading-->
+    <h2 class="section-heading h1 pt-4">Contact us</h2>
+    <!--Section description-->
+    <p class="section-description">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        matter of hours to help you.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-8 col-xl-9">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="center-on-small-only">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-4 col-xl-3">
+            <ul class="contact-icons">
+                 
+                <li><i class="fa fa-phone green-text fa-2x"></i>
+                    <p>+ 91 830 807 6363</p>
+                </li>
+
+                <li><i class="fa fa-envelope orange-text fa-2x"></i>
+                    <p>infobaiza@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+<!--Section: Features v.1-->
+        </div>
+        
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--Footer-->
+<footer class="page-footer center-on-small-only cyan lighten-3">
+
+  <!--Footer Links-->
+  <div class="container">
+    <div class="row">
+
+       
+       
+    </div>
+  </div>
+  <!--/.Footer Links-->
+
+  
+
+  <!--Social buttons-->
+  <div class="social-section text-center">
+    <ul>
+<li><a class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook fa-2x"> </i></a></li>
+      <li><a class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter fa-2x"> </i></a></li>
+      <li><a class="btn-floating btn-sm btn-whatsapp"><i class="fa fa-whatsapp fa-2x"> </i></a></li>
+      <li><a class="btn-floating btn-sm btn-li"><i class="fa fa-instagram fa-2x"> </i></a></li>
+    </ul>
+  </div>
+  <!--/.Social buttons-->
+
+  <!--Copyright-->
+  <div class="footer-copyright">
+    <div class="container-fluid">
+      © 2018 Copyright:  <a href="https://www.baiza.in"> <img src="images/BaizaLogoFinal.png" height="30"> <img src="images/BaizaName.png" height="15" width="50"></a>
+    </div>
+  </div>
+  <!--/.Copyright-->
+
+</footer>
+<!--/.Footer-->
+    
+
+  <!-- SCRIPTS -->
+ <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+            
+
+</body>
+</html>
